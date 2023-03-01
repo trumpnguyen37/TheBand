@@ -1,0 +1,15 @@
+1.Phân tích 
+	1.Header
+	2.Slider
+	3.Content
+		1.About
+		2.Tour
+		3.Contact
+		4.Image	
+	4.Footer
+
+
+2. Responsive
+	1. PC: >= 1024px
+	2. Tablet: >= 740px & < 1024px
+	3. Mobile: <740px
