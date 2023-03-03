@@ -12,11 +12,63 @@
 /* Mobile */
 
 @media (max-width: 739px) {
-    #nav > li {
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+    
+   .s-mt-8  {
+    margin-top: 8px !important;
+   }
+
+    #header {
+        /* Khi đối tượng con vượt quá nó sẽ bị ẩn đi */
+        overflow: hidden; 
+    }
+
+    #header .mobile-menu-btn    {
         display: block;
     }
 
     #header .search-btn {
         display: none;
     }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    
+    #nav > li:first-child   {
+        display: inline-block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        /* innitial: gia tri mặc định */
+        position: initial; 
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .member-item   {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-avatar {
+        width: 60%;
+    }
+
+    
 }
