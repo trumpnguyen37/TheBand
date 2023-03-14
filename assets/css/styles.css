@@ -202,7 +202,7 @@ html {
     margin-top: 46px;
     /* padding - top : 50% -> chiều dọc bằng 1 nửa chiều ngang */
     padding-top: 50%; 
-    background: url('/assets/img/slider/slider1.jpg') top center /cover no-repeat;
+    background: url('../img/slider/slider1.jpg') top center /cover no-repeat;
 }
 
 #slider .text-content {
@@ -224,6 +224,7 @@ html {
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 
@@ -483,6 +484,15 @@ html {
 .contact-info   {
     font-size: 18px;
     line-height: 1.4;
+}
+
+.contact-info a {
+    color: #1f4769;
+    opacity: 0.9;
+}
+
+.contact-info a:hover   {
+    color: #167cd0;
 }
 
 .contact-info i[class*="ti-"] {

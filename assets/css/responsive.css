@@ -3,6 +3,34 @@
 
 }
 
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+    .btn {
+        padding: 14px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+} 
+
 /* Tablet */
 
 @media  (max-width:1023px) and (min-width:740px)    {
